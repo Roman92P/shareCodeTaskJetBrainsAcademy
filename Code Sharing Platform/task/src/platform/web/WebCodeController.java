@@ -25,4 +25,10 @@ public class WebCodeController {
         return "code";
     }
 
+    @RequestMapping("/code/new")
+    public String getNewCodeForm() {
+        return "code-new-form";
+    }
+
+
 }
