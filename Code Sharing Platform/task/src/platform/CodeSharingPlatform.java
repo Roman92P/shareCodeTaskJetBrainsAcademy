@@ -12,7 +12,7 @@ import platform.model.Code;
 
 @SpringBootApplication
 //@RestController
-@EnableWebMvc
+//@EnableWebMvc
 public class CodeSharingPlatform implements WebMvcConfigurer {
 
     public static void main(String[] args) {
